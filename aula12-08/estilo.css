@@ -1,3 +1,21 @@
+/* comentario */
+div{
+}
+
+span {
+}
+
+.area {
+    background-color: #abc;
+    width: 200px;
+    height: 200px;
+
+}
+
 body {
-    background-color: aqua;
+    background-color: black;
+    background-image: url('wallpaper.jpg');
+    /* background-repeat: no-repeat ; */
+    /* background-position: center; */
+    /* background-size: cover; */
 }
