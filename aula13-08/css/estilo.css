@@ -16,6 +16,7 @@ body {
     background-color: #850100;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .menu ul {
@@ -40,9 +41,17 @@ body {
 
 #topo {
     height: 100%;
-    background-image: url('../imagens/dagostim.jpg');
+    /* background-image: url('../imagens/dagostim.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+}
+
+#topo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
 }
 
 section {
@@ -69,7 +78,8 @@ section:nth-child(even) {
 /* ">" usado para filhos diretos do section */
 
 section>div {
-    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
 }
 
 .imagem {
