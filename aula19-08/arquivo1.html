@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            background-color: red;
+        }
+        
+        @media (max-width: 800px) {
+            body {
+                background-color: blue;
+            }
+        }
+        
+        @media (min-width: 1000px) {
+            body {
+                 background-color: green; 
+    }
+}
+*/
+        
+        .imagem {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        picture img {
+            width: 100%;
+        }
+        
+        .img1 {
+            display: none;
+        }
+        
+        @media (max-width: 700px) {
+            .img1 {
+                display: inline;
+            }
+            .img2 {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <img src="flor.jpg" class="imagem alt=" ">
+            <figcaption>Figura 1.1 - Imagem de flores no jardim</figcaption>
+        </figure>
+
+        <!-- <picture>
+            <source srcset="gatinho.jpg "media="(max-width: 700px) "/>
+            <source srcset=" "media=" ">
+            <img src="flor.jpg "alt=" "/>
+        </picture> -->
+        <div class="area ">
+
+            <img src="gatinho.jpg " class="img1 " alt=" ">
+            <img src="flor.jpg " class="img2 " alt=" ">
+        </div>
+    </body>
+
+</html>
