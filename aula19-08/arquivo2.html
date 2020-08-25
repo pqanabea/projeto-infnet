@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .principal {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .banner {
+            height: 300px;
+            background-color: #aabbcc;
+        }
+        
+        .area {
+            display: flex;
+        }
+        
+        .area div {
+            height: 300px;
+            flex: 1;
+        }
+        
+        .area1 {
+            background-color: indigo;
+        }
+        
+        .area2 {
+            background-color: lightcoral;
+        }
+        
+        .area3 {
+            background-color: cadetblue;
+        }
+        
+        @media (max-width: 800px) {
+            .banner {
+                display: none;
+            }
+            .area {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="principal">
+        <div class="banner"></div>
+        <div class="area">
+            <div class="area1"></div>
+            <div class="area2"></div>
+            <div class="area3"></div>
+        </div>
+    </div>
+</body>
+
+</html>

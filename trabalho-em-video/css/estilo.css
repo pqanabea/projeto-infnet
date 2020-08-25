@@ -1,0 +1,32 @@
+#titulo {
+    text-align: center;
+    font-family: 'hellohoney';
+    font-size: 10vh;
+    font-style: oblique;
+}
+
+body {
+    background-image: url('../imagens/back.jpg');
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 50px;
+}
+
+.cards {
+    padding: 25px;
+    background-color: #f9ecfa;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.cards iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'vegur';
+    color: grey;
+    font-weight: normal;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    padding: 15px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu ul li {
+    padding-left: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    /* line-height: 1.5em; */
+}
+
+.atual a {
+    text-decoration: underline!important;
+}
+
+.principal {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    align-items: center;
+}
+
+section div {
+    flex: 1;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.conteudofinal {
+    text-align: center;
+}
+
+.conteudofinal a {
+    border: solid 1px #202020;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+}
+h1, h2 {
+    font-size: 40px;
+}
+.navrodape {
+    background-color: rgb(71, 70, 70);
+    margin-top: 30px;
+    display: flex;
+    color: whitesmoke;
+    padding: 15px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.navrodape div {
+    margin-left: auto;
+    display: inline;
+}
+
+.section1 {
+    padding-top: 80px;
+}
+
+/*contato.html*/
+
+.formulario label {
+    display: block;
+    margin: 10px 0px;
+
+}
+
+.item-form {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.item-form:focus {
+    background-color: wheat;
+}
+
+.botao-form {
+    border: solid 1px;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.sectioncontato {
+    padding-top: 150px;
+}
+
+/*sobre-nos html*/
+.sobre-nos-img {
+    padding: 25px;
+}
+
+/*onde-comprar html*/
+.maps{
+    padding: 50px;
+}
+
+.texto-onde-comprar {
+    padding: 50px;
+
+}
+
+.rodape {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border-top-style: outset;
+}
+.webnode {
+    font-weight: bold;
+    text-decoration: underline;
+}
