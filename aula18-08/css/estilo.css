@@ -74,17 +74,12 @@ h1, h2 {
 }
 .navrodape {
     background-color: rgb(71, 70, 70);
-    margin-top: 30px;
-    display: flex;
+    
     color: whitesmoke;
     padding: 15px;
-    bottom: 0px;
-    width: 100%;
-}
-
-.navrodape div {
-    margin-left: auto;
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .section1 {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .principal {
+            max-width: 1200px;
+            margin: auto;
+            border: solid 1px #000;
+            display: flex;
+            height: 400px;
+
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+
+            flex-wrap: wrap;
+        }
+        .principal div {
+            width: 150px;
+            height: 200px;
+        }
+        .area1 {
+            background-color: indigo;
+            flex-grow: 5;
+        }
+        
+        .area2 {
+            background-color: lightcoral;
+            flex-grow: 3;
+        }
+        
+        .area3 {
+            background-color: cadetblue;
+            flex-grow: 1;
+        }
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="principal">
+        <div class="area1">Texto 1</div>
+        <div class="area2">Texto 2</div>
+        <div class="area3">Texto 3</div>
+    </div>
+    
+</body>
+</html>
