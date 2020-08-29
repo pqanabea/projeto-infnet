@@ -6,6 +6,10 @@
     font-weight: normal;
 }
 
+header {
+    margin: 10px;
+}
+
 .topo {
     display: flex;
     height: 700px;
@@ -51,11 +55,48 @@
     flex-direction: column-reverse;
 }
 
+.conteudo h1 {
+    font-family: 'keepcalm';
+    font-size: 70px;
+    padding-bottom: 90px;
+}
+
+.conteudo h2 {
+    font-family: 'bellamy';
+    font-size: 130px;
+    color: rgb(182, 176, 141);
+}
+
 .area1 {
-    align-content: center;
+    /* width: 500px; */
+    /* height: 700px; */
     text-align: center;
     background-color: rgb(226, 224, 224);
-    height: 700px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.area1 h1 {
+    font-family: 'keepcalm';
+    font-size: 40px;
+    color: #000000;
+}
+
+.area1 h2 {
+    font-family: 'bellamy';
+    font-size: 100px;
+    color: rgb(182, 176, 141);
+}
+
+.area1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.area1 img {
+    height: 70px;
+    width: 70px;
+    padding-top: 100px;
 }
 
 .area2 {
