@@ -1,3 +1,5 @@
+/* TAGS COMUNS */
+
 * {
     margin: 0;
     padding: 0;
@@ -59,43 +61,91 @@ header {
     padding: 100px;
 }
 
+
+/* TAGS DE CONTATO */
+
+b {
+    font-weight: bold;
+}
+
 .area1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     padding-bottom: 30px;
 }
 
-.area1 p {
-    text-align: center;
-    width: 700px;
-}
-
-.conteudo {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-}
-
-.area2 {
-    padding: 30px;
+.secundaria {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-top-style: outset;
 }
 
-.area2 div {
-    padding: 50px;
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    padding: 30px 0px 30px;
 }
 
-.texto {
-    display: inline-block;
-    width: 500px;
+.area2 {
+    width: 30%;
 }
 
 .area3 {
+    width: 50%;
+    padding: 0px 80px 0px;
+}
+
+p {
+    padding: 10px 0px 30px;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.endereco div {
+    width: 40%;
+}
+
+span {
+    display: block;
+}
+
+
+/* formulario */
+
+.label {
+    display: block;
+    margin: 15px 0px;
+}
+
+.item-form {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.item-form:focus {
+    background-color: wheat;
+}
+
+.botao-form {
+    width: 200px;
+    color: white;
+    background-color: black;
+    border: solid 1px;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+/* RODAPES */
+
+.area4 {
     margin: 40px;
     display: flex;
     flex-direction: row;

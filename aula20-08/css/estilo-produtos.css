@@ -1,3 +1,5 @@
+/* TAGS COMUNS */
+
 * {
     margin: 0;
     padding: 0;
@@ -54,48 +56,15 @@ header {
 }
 
 .principal {
-    background-color: rgb(246, 246, 236);
+    background-color: rgb(226, 224, 224);
     margin: 10px;
     padding: 100px;
 }
 
-.area1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 30px;
-}
 
-.area1 p {
-    text-align: center;
-    width: 700px;
-}
+/* RODAPES */
 
-.conteudo {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-}
-
-.area2 {
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-top-style: outset;
-}
-
-.area2 div {
-    padding: 50px;
-}
-
-.texto {
-    display: inline-block;
-    width: 500px;
-}
-
-.area3 {
+.area4 {
     margin: 40px;
     display: flex;
     flex-direction: row;

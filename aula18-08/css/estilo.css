@@ -69,12 +69,14 @@ section:nth-child(even) {
     text-decoration: none;
     background-color: white;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-size: 40px;
 }
+
 .navrodape {
     background-color: rgb(71, 70, 70);
-    
     color: whitesmoke;
     padding: 15px;
     display: flex;
@@ -86,12 +88,12 @@ h1, h2 {
     padding-top: 80px;
 }
 
+
 /*contato.html*/
 
 .formulario label {
     display: block;
     margin: 10px 0px;
-
 }
 
 .item-form {
@@ -114,19 +116,22 @@ h1, h2 {
     padding-top: 150px;
 }
 
+
 /*sobre-nos html*/
+
 .sobre-nos-img {
     padding: 25px;
 }
 
+
 /*onde-comprar html*/
-.maps{
+
+.maps {
     padding: 50px;
 }
 
 .texto-onde-comprar {
     padding: 50px;
-
 }
 
 .rodape {
@@ -136,6 +141,7 @@ h1, h2 {
     align-items: center;
     border-top-style: outset;
 }
+
 .webnode {
     font-weight: bold;
     text-decoration: underline;

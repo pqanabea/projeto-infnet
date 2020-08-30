@@ -1,0 +1,120 @@
+<!-- AREA COMUM -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="stylesheet" href="css/estilo-contato.css">
+    <style>
+        @font-face {
+            font-family: 'cocomat';
+            src: url(fonts/Cocomat\ Light-trial.ttf), url(fonts/Cocomat\ Ultralight-trial.ttf);
+        }
+        
+        @font-face {
+            font-family: 'bellamy';
+            src: url(fonts/Bellamy\ Signature.otf), url(fonts/Bellamy\ Signature.ttf);
+        }
+        
+        @font-face {
+            font-family: 'keepcalm';
+            src: url(fonts/KeepCalm-Medium.ttf);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="topo">
+        <nav class="menu">
+            <div class="logo">FAZENDA DA COLINA VERDE</div>
+            <ul>
+                <li>
+                    <a href="index.html">INICIO</a>
+                    <a href="sobre-nos.html">SOBRE NOS</a>
+                    <a href="produtos.html">PRODUTOS</a>
+                    <a href="contato.html">CONTATO</a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- SECTIONS -->
+
+    <section class="principal">
+        <section class="area1">
+            <h1>ENTRE EM CONTATO</h1>
+        </section>
+
+        <section class="secundaria">
+
+            <section class="area2">
+                <h3>Encomendar produtos</h3>
+                <div class="formulario">
+                    <form action="envia-email.php" method="post">
+
+                        <label class="label" for="name">Nome:</label>
+                        <input class="item-form" type="text" id="name" name="tname" />
+
+                        <label class="label" for="mail">E-mail:</label>
+                        <input class="item-form" type="email" id="mail" name="tmail" />
+
+                        <label class="label" for="checkbox">Escolha os produtos:</label>
+                        <input type="checkbox" id="leite" value="leite">
+                        <label for="leite">Leite de vaca fresco</label></br>
+
+                        <input type="checkbox" id="queijo-ovelha" value="queijo-ovelha">
+                        <label for="queijo-ovellha">Queijo de leite de ovelha</label></br>
+
+                        <input type="checkbox" id="queijo-cabra" value="cabra">
+                        <label for="queijo-cabra">Queijo de leite de cabra</label>
+
+                        <label class="label" for="msg">Mensagem:</label>
+                        <textarea class="item-form" id="msg" name="tmsg" rows="4"></textarea>
+
+
+                        <button class="botao-form" type="submit">Enviar</button>
+                    </form>
+                </div>
+
+            </section>
+            <section class="area3">
+                <h3>Visite-nos</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.1583088354!2d-74.11976389828038!3d40.697663748695746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNova%20Iorque%2C%20NY%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1598765944348!5m2!1spt-BR!2sbr"
+                    width="800" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestias nostrum perferendis? Reiciendis obcaecati quia quasi alias nemo voluptatum
+                </p>
+                <div class="endereco">
+                    <div>
+                        <span><b>Avenida Pasteur 520, Rio de Janeiro04719-001 </b></span>
+                        <span><b>Encomendas:</b> 11 3456-2800</span>
+                        <span><b>E-mail:</b> demo@webnode.com</span>
+                    </div>
+                    <div>
+                        <span><b>Horário de Funcionamento</b></span>
+                        <span><b>Seg - Sex:</b> 09h - 18h</span>
+                        <span><b>Sáb - Dom:</b> 08h - 12:30h</span>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- AREA COMUM -->
+    <section class="area4">
+        <div>
+            <span>FAZENDA DA COLINA VERDE</span></br>
+            <span>Cultivado em 2019</span>
+        </div>
+        <div>
+            <span>Desenvolvido por Webnode</span>
+        </div>
+    </section>
+
+    <footer>
+        <span>Crie um site gratuito</span>
+        <span>WEBNODE</span>
+    </footer>
+</body>
+
+</html>
