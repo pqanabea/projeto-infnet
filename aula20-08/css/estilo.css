@@ -1,12 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: verdana;
+    font-family: 'cocomat';
+    font-size: 18px;
     color: white;
     font-weight: normal;
 }
-
+h1 {
+    font-family: 'keepcalm';
+    color: black;
+    font-size: 40px;
+}
+h2 {
+    font-family: 'bellamy';
+    color: rgb(207, 185, 157);
+    font-size: 100px;
+}
 header {
+    padding: 0px 100px 0px;
     margin: 10px;
 }
 
@@ -24,6 +35,7 @@ header {
     margin-right: auto;
     margin-top: auto;
     padding: 20px;
+    align-self: center;
 }
 
 .menu {
@@ -47,6 +59,7 @@ header {
 
 .menu ul li a {
     text-decoration: none;
+    padding: 5px;
 }
 
 .conteudo {
@@ -56,70 +69,159 @@ header {
 }
 
 .conteudo h1 {
-    font-family: 'keepcalm';
-    font-size: 70px;
+    color: white !important;
+    font-size: 70px !important;
     padding-bottom: 90px;
 }
 
 .conteudo h2 {
-    font-family: 'bellamy';
-    font-size: 130px;
-    color: rgb(182, 176, 141);
+    font-size: 130px !important;
+    
 }
 
 .area1 {
-    /* width: 500px; */
-    /* height: 700px; */
-    text-align: center;
+    margin: 10px;
+    padding: 100px;
     background-color: rgb(226, 224, 224);
-    align-content: center;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.area1 h1 {
-    font-family: 'keepcalm';
-    font-size: 40px;
-    color: #000000;
+.conteudo1 h1 {
+    padding-bottom: 20px;
 }
 
-.area1 h2 {
-    font-family: 'bellamy';
-    font-size: 100px;
-    color: rgb(182, 176, 141);
+
+.conteudo1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
 }
 
 .area1 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
+    width: 700px;
+    text-align: center;
+    color: gray;
 }
 
 .area1 img {
     height: 70px;
     width: 70px;
-    padding-top: 100px;
+}
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(226, 224, 224);
+    border:  solid 1px  rgb(204, 163, 112);
+    color: rgb(19, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 17px;
 }
 
 .area2 {
-    /* color: black !important; */
-    align-content: center;
+    padding: 100px;
+    align-items: center;  
+}
+
+.conteudo2{
+   text-align: center;
+}
+.produtos{
+    display: flex!important;
+    flex-direction: row;
+    align-items: center;
     text-align: center;
-    height: 700px;
+    justify-content: space-around;
+    margin: 20px;
+    flex: 1;
 }
-
-.area2 h1 {
+.area2 button {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background: none;
     color: black;
+    text-decoration: underline;
+    
 }
 
+.area2 img {
+    padding: 30px;
+    border-radius: 50%;
+}
+.area2 p {
+    padding: 10px;
+    color: gray;
+}
+.area2 h3 {
+    padding: 10px;
+    color: black;
+    
+}
 .area3 {
+    margin: 10px;
     background-image: url(../imagens/plantacao.jpg);
-    height: 400px;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     display: flex;
 }
 
+.conteudo3 {
+    padding:  120px 10px 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: rgba(0,0,0,0.3);
+    flex: 1;
+}
 .area3 h1 {
-    width: 100%;
-    align-self: center;
-    text-align: center;
+    color: white!important;
+}
+.area3 h2 {
+    color: rgb(209, 193, 171);
+}
+
+.area4 {
+    margin: 10px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(226, 224, 224);
+}
+.area4 div {
+    width: 50%;
+    padding: 50px;
+}
+.conteudo4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.area4 p {
+    color: gray;
+    width: 500px;
+}
+.area5 {
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.area5 span {
+    color: gray;
+}
+footer {
+    background-color: rgb(71, 70, 70);
+    
+    color: whitesmoke;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
