@@ -60,8 +60,30 @@
             
         </div>
         <div class="divisao form">
-            <!-- FORMULARIO-->
-            <button>ENVIAR</button>
+            <form action="envia-email.php" method="post">
+
+                <label class="label" for="name">Nome:</label>
+                <input class="item-form" type="text" id="name" name="tname" />
+
+                <label class="label" for="mail">E-mail:</label>
+                <input class="item-form" type="email" id="mail" name="tmail" />
+
+                <label class="label" for="checkbox">Escolha os produtos:</label>
+                <input type="checkbox" id="leite" value="leite">
+                <label for="leite">Leite de vaca fresco</label></br>
+
+                <input type="checkbox" id="queijo-ovelha" value="queijo-ovelha">
+                <label for="queijo-ovellha">Queijo de leite de ovelha</label></br>
+
+                <input type="checkbox" id="queijo-cabra" value="cabra">
+                <label for="queijo-cabra">Queijo de leite de cabra</label>
+
+                <label class="label" for="msg">Mensagem:</label>
+                <textarea class="item-form" id="msg" name="tmsg" rows="4"></textarea>
+
+
+                <button class="botao-form" type="submit">ENVIAR</button>
+            </form>
         </div>
     </section>
     <!-- AREA COMUM -->
