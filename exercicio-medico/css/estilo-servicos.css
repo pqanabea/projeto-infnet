@@ -1,0 +1,102 @@
+/* TAGS COMUNS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(134, 171, 173);
+}
+
+h1 {
+    font-family: 'calibri';
+    color: rgb(66, 195, 220);
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'bellamy';
+    color: rgb(246, 205, 115);
+    font-size: 120px;
+}
+
+h3 {
+    font-family: 'keepcalm';
+    color: black;
+    font-size: 22px;
+}
+
+header {
+    margin: 10px;
+}
+
+
+
+.logo {
+    color: rgb(66, 195, 220);
+    font-weight: bold ;
+    padding: 10px 20px 10px;
+    font-size: 24px;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    padding: 10px 50px 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu ul li {
+    padding: 10px 20px 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px 10px;
+}
+
+.atual {
+    color: rgb(66, 195, 220)!important;
+}
+
+.fa-tooth {
+    color: rgb(66, 195, 220);
+    size: 50px;
+}
+/*TAG INICIO*/
+
+
+/* RODAPES */
+
+.rodape {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-style: groove;
+    padding-top: 15px;
+}
+.webnode{
+    color: rgb(66, 195, 220)!important;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.rodape span {
+    color: gray;
+}
+
+footer {
+    background-color: rgb(71, 70, 70);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span {
+    color: whitesmoke!important;
+}

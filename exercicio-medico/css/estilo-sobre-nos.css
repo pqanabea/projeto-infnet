@@ -1,0 +1,131 @@
+/* TAGS COMUNS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: rgb(134, 171, 173);
+    font-family: 'calibri';
+}
+
+h1 {
+    color: rgb(66, 195, 220);
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 26px;
+    color: rgb(66, 195, 220);
+}
+
+h3 {
+    font-family: 'snippet';
+    color: gray;
+}
+
+header {
+    margin: 10px;
+}
+
+
+
+.logo {
+    color: rgb(66, 195, 220);
+    font-weight: bold ;
+    padding: 10px 20px 10px;
+    font-size: 24px;
+}
+
+.menu {
+    background-color: white;
+    display: flex;
+    padding: 10px 50px 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin-left: auto;
+}
+
+.menu ul li {
+    padding: 10px 20px 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px 10px;
+}
+
+.atual {
+    color: rgb(66, 195, 220)!important;
+}
+
+i {
+    color: rgb(66, 195, 220);
+}
+/*TAG SOBRE NOS*/
+.principal {
+    padding: 30px 150px 30px;
+}
+.principal section {
+    padding: 35px 0px 35px;
+}
+.cabecalho {
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    margin: 30px;
+}
+.imagens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.cadeira01{
+    width: 700px;
+    height: 350px;
+}
+.cadeira02 {
+    width: 700px;
+    height: 430px;
+}
+.paciente {
+    width: 700px;
+    height: 430px;
+}
+
+
+
+/* RODAPES */
+
+.rodape {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-style: outset;
+    padding-top: 15px;
+}
+.webnode{
+    color: rgb(66, 195, 220)!important;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.rodape span {
+    color: gray;
+}
+
+footer {
+    background-color: rgb(71, 70, 70);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span {
+    color: whitesmoke!important;
+}
