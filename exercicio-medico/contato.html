@@ -19,7 +19,7 @@
 <body>
     <header class="topo">
         <nav class="menu">
-            <div class="logo"><i class="fas fa-tooth"></i> MEDI DENT</div>
+            <div class="logo"><i class="fas fa-tooth fa-lg"></i> MEDI DENT</div>
             <ul>
                 <li>
                     <a href="index.html">Inicio</a>
@@ -33,7 +33,43 @@
         </nav>
     </header>
     <!--SECTIONS-->
+    <section class="principal">
 
+        <section class="contato">
+            <div>
+                <h1>Contatos</h1>
+                <span>MEDI DENT</span>
+                <span>Avenida Pasteur 520, Rio de Janeiro 04719- 001</span>
+                <span>demo@webnode.com</span>
+                <span>11 3456 7890</span>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14695.517306667849!2d-43.1670083!3d-22.9546709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a4e9dee519ccb76!2sBravo%20Fire!5e0!3m2!1spt-PT!2sbr!4v1598902814044!5m2!1spt-PT!2sbr" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div>
+                <h1>Reserva online</h1>
+                <h2>Consultas</h2>
+                <span>Seg - Sex: 08h - 16h</span>
+
+                <form action="envia-email.php" method="post">
+
+                    <label class="label" for="name">Nome:</label>
+                    <input class="item-form" type="text" id="name" name="tname" />
+
+                    <label class="label" for="mail">E-mail:</label>
+                    <input class="item-form" type="email" id="mail" placeholder="@" name="tmail" />
+
+                    <label class="label" for="numero">Número de telefone:</label> 
+                    <input class="item-form" type="tel" id="numero" placeholder="(21) 0 0000-0000" name="numero">                   
+
+                    <label class="label" for="data">Data:</label>
+                    <input class="item-form" type="date" id="data" placeholder="00/00/0000" name="data">
+
+                    <button class="botao-form" type="submit">Enviar</button>
+                </form>
+                <span class="texto">Iremos confirmar a consulta em 24 horas</span>
+            </div>
+        </section>
+    </section>
 
     <!-- AREA COMUM -->
     <section class="rodape">

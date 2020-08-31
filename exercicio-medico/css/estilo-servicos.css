@@ -3,27 +3,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'calibri';
     font-size: 18px;
     color: rgb(134, 171, 173);
+    font-family: 'calibri';
 }
 
 h1 {
-    font-family: 'calibri';
     color: rgb(66, 195, 220);
-    font-size: 40px;
+    font-size: 44px;
 }
 
 h2 {
-    font-family: 'bellamy';
-    color: rgb(246, 205, 115);
-    font-size: 120px;
+    font-size: 28px;
+    color: rgb(66, 195, 220);
+    padding: 20px 0px 20px;
 }
 
 h3 {
-    font-family: 'keepcalm';
-    color: black;
-    font-size: 22px;
+    font-family: 'snippet';
+    color: gray;
 }
 
 header {
@@ -63,13 +61,34 @@ header {
     color: rgb(66, 195, 220)!important;
 }
 
-.fa-tooth {
+i {
     color: rgb(66, 195, 220);
-    size: 50px;
 }
-/*TAG INICIO*/
-
-
+/*TAG SERVICOS*/
+.principal {
+    padding: 30px 150px 30px;
+}
+.principal section {
+    padding: 35px 0px 35px;
+}
+.principal h1{
+    text-align: center;
+}
+.servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divisoes {
+    width: 500px;
+    padding: 40px;
+}
+.divisoes ul {
+    margin: 20px 30px 20px;
+}
+ul li {
+    text-decoration-style: none;
+}
 /* RODAPES */
 
 .rodape {
@@ -77,7 +96,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top-style: groove;
+    border-top-style: outset;
     padding-top: 15px;
 }
 .webnode{

@@ -3,27 +3,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'calibri';
     font-size: 18px;
     color: rgb(134, 171, 173);
+    font-family: 'calibri';
 }
 
 h1 {
-    font-family: 'calibri';
     color: rgb(66, 195, 220);
-    font-size: 40px;
+    font-size: 44px;
+    padding: 40px 0px 40px;
 }
 
 h2 {
-    font-family: 'bellamy';
-    color: rgb(246, 205, 115);
-    font-size: 120px;
+    font-size: 30px;
+    color: rgb(66, 195, 220);
 }
 
 h3 {
-    font-family: 'keepcalm';
-    color: black;
-    font-size: 22px;
+    font-family: 'snippet';
+    color: gray;
 }
 
 header {
@@ -62,13 +60,62 @@ header {
 .atual {
     color: rgb(66, 195, 220)!important;
 }
-
-.fa-tooth {
+i {
     color: rgb(66, 195, 220);
-    size: 50px;
 }
-/*TAG INICIO*/
+/*TAG CONTATO*/
+.principal {
+    padding: 30px 200px 30px;
+}
+.principal section {
+    padding: 35px 0px 35px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contato div {
+    width: 550px;
+    padding: 30px;
+}
+.contato span{
+    display: block;
+    font-size: 29px;
+    padding: 5px 0px 5px;
+}
+.texto {
+    margin: 40px 0px 20px;
+    font-size: 16px!important;
+    font-style: oblique;
+}
+/* FORMULARIO*/
 
+.label {
+    display: block;
+    margin-top: 30px ;
+}
+
+.item-form {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    height: 35px;
+}
+
+.item-form:focus {
+    background-color: rgb(205, 223, 245);
+}
+
+.botao-form {
+    width: 200px;
+    color: white;
+    background-color: rgb(66, 195, 220);
+    border: solid 1px;
+    padding: 15px 20px;
+    font-size: 17px;
+    margin-top: 20px;
+}
 
 /* RODAPES */
 
@@ -77,7 +124,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top-style: groove;
+    border-top-style: outset;
     padding-top: 15px;
 }
 .webnode{
@@ -86,6 +133,7 @@ header {
     padding-bottom: 5px;
 }
 .rodape span {
+    
     color: gray;
 }
 

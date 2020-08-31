@@ -3,27 +3,25 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'calibri';
     font-size: 18px;
     color: rgb(134, 171, 173);
+    font-family: 'calibri';
 }
 
 h1 {
-    font-family: 'calibri';
     color: rgb(66, 195, 220);
-    font-size: 40px;
+    font-size: 44px;
 }
 
 h2 {
-    font-family: 'bellamy';
-    color: rgb(246, 205, 115);
-    font-size: 120px;
+    font-size: 30px;
+    color: rgb(66, 195, 220);
+    padding: 10px 0px 10px;
 }
 
 h3 {
-    font-family: 'keepcalm';
-    color: black;
-    font-size: 22px;
+    font-family: 'snippet';
+    color: gray;
 }
 
 header {
@@ -62,13 +60,33 @@ header {
 .atual {
     color: rgb(66, 195, 220)!important;
 }
-
-.fa-tooth {
+i {
     color: rgb(66, 195, 220);
-    size: 50px;
 }
-/*TAG INICIO*/
-
+/*TAG NOVIDADES*/
+.principal {
+    padding: 30px 200px 30px;
+}
+.principal section {
+    padding: 35px 0px 35px;
+}
+.principal h1{
+    text-align: center;
+}
+.novidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conteudo {
+    padding: 40px;
+}
+p{
+    padding: 5px 0px 5px;
+}
+span {
+    font-style: italic;
+}
 /* RODAPES */
 
 .rodape {
@@ -76,7 +94,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top-style: groove;
+    border-top-style: outset;
     padding-top: 15px;
 }
 .webnode{
