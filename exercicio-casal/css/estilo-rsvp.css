@@ -17,7 +17,7 @@ h1 {
     font-family: 'keepcalm';
     color: black;
     font-size: 40px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 h2 {
@@ -77,34 +77,63 @@ header {
 }
 
 
-/*TAG NOSSA HISTORIA*/
+/*TAG rsvp*/
 
 section {
+    padding: 100px;
     display: flex;
-    flex-direction: row;
-    flex: 1;
+    justify-content: center;
 }
 
 .divisao {
     width: 50%;
 }
 
-img {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    margin-left: 150px;
-}
-
 p {
-    width: 600px;
     padding: 5px 0px 5px;
 }
 
 .texto {
+    width: 500px;
+    text-align: end;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.form {
+    width: 500px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
+}
+
+.item-form {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.label {
+    display: block;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+input {
+    margin: 0px 0px 5px;
+}
+
+button {
+    display: block;
+    width: 250px;
+    margin-top: 20px;
+    padding: 10px 0px 0px;
+    border: solid 1px rgb(246, 205, 115);
+    color: rgb(19, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
 }
 
 

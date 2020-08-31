@@ -20,12 +20,13 @@ h2 {
     color: rgb(246, 205, 115);
     font-size: 120px;
 }
+
 h3 {
     font-family: 'keepcalm';
     color: black;
-    font-size: 22px; 
-    
+    font-size: 22px;
 }
+
 header {
     padding: 0px 100px 0px;
     margin: 10px;
@@ -85,20 +86,30 @@ header {
     padding-bottom: 300px;
     padding-left: 60px;
 }
+
+.atual {
+    color: rgb(246, 205, 115)!important;
+}
+
+
 /*TAG INICIO*/
+
 header div h1 {
     font-size: 70px!important;
 }
+
 header div h2 {
     font-size: 150px!important;
 }
-.area1{
+
+.area1 {
     padding: 50px;
     display: flex;
     flex: 1;
     flex-direction: row;
     justify-content: center;
 }
+
 .area2 {
     padding: 50px;
     display: flex;
@@ -114,26 +125,35 @@ header div h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
+
 .img {
     padding: 0px 100px 0px;
 }
-p{
+
+p {
     padding-left: 55px;
     width: 550px;
 }
+
+button a {
+    text-decoration: none;
+}
+
 button {
     width: 250px;
     margin-top: 20px;
     margin-left: 55px;
     padding: 10px 0px 0px;
-    border:  solid 1px  rgb(246, 205, 115);;
+    border: solid 1px rgb(246, 205, 115);
+    ;
     color: rgb(19, 18, 18);
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
 }
+
+
 /* RODAPES */
 
 .area4 {
@@ -144,11 +164,10 @@ button {
     justify-content: space-between;
     border-top-style: groove;
     padding-top: 15px;
-
 }
+
 .area4 span {
     color: gray;
-
 }
 
 footer {
@@ -158,6 +177,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+
 footer span {
     color: whitesmoke!important;
 }
